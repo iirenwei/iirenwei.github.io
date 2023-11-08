@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://000.pub/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Wed, 08 Nov 2023 18:19:00 +0800</lastBuildDate><atom:link href="https://000.pub/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</link>
+      <pubDate>Wed, 08 Nov 2023 18:19:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</guid>
+      <description>测试股创下二告诉</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/2023-11-08/</link>
+      <pubDate>Wed, 08 Nov 2023 01:38:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/2023-11-08/</guid>
+      <description>所有的关系终将凋零，当初你玩的多好的朋友，随着时间的流逝，慢慢都有各自的生活，最好消失在你的生活中，偶尔小聚，发现也没什么说的。你们已经太久没联系了，对吗？
+markdown 文件中的图片到新的图床</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</link>
+      <pubDate>Wed, 08 Nov 2023 00:58:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</guid>
+      <description>恭喜中国女篮重返亚洲之巅</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/2023-11-04/</link>
+      <pubDate>Sat, 04 Nov 2023 00:21:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/2023-11-04/</guid>
+      <description>2023年11月4日普惠农场胡杨林景区一日游</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</link>
+      <pubDate>Wed, 01 Nov 2023 13:28:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/</guid>
+      <description>GitHub地址： FarseaSH/hugo-theme-moments (llll.host)</description>
+    </item>
+    
+  </channel>
+</rss>
