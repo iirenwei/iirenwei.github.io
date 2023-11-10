@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>音乐 on My New Hugo Site</title>
+    <link>https://000.pub/tags/%E9%9F%B3%E4%B9%90/</link>
+    <description>Recent content in 音乐 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Wed, 08 Nov 2023 01:38:00 +0800</lastBuildDate><atom:link href="https://000.pub/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://000.pub/posts/2023-11-08-%E6%A2%A6%E9%A3%9E%E8%88%B9-%E4%B8%8D%E5%80%BC%E5%BE%97/</link>
+      <pubDate>Wed, 08 Nov 2023 01:38:00 +0800</pubDate>
+      
+      <guid>https://000.pub/posts/2023-11-08-%E6%A2%A6%E9%A3%9E%E8%88%B9-%E4%B8%8D%E5%80%BC%E5%BE%97/</guid>
+      <description>放首歌</description>
+    </item>
+    
+  </channel>
+</rss>
