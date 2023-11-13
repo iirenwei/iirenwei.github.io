@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>/posts/</link>
+    <link>https://000.pub/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 04 Nov 2023 00:21:00 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 00:21:00 +0800</lastBuildDate><atom:link href="https://000.pub/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/2023-11-04%E6%99%AE%E6%83%A0%E5%86%9C%E5%9C%BA%E8%83%A1%E6%9D%A8%E6%9E%97%E6%99%AF%E5%8C%BA%E4%B8%80%E6%97%A5%E6%B8%B8/</link>
+      <link>https://000.pub/posts/2023-11-04%E6%99%AE%E6%83%A0%E5%86%9C%E5%9C%BA%E8%83%A1%E6%9D%A8%E6%9E%97%E6%99%AF%E5%8C%BA%E4%B8%80%E6%97%A5%E6%B8%B8/</link>
       <pubDate>Sat, 04 Nov 2023 00:21:00 +0800</pubDate>
       
-      <guid>/posts/2023-11-04%E6%99%AE%E6%83%A0%E5%86%9C%E5%9C%BA%E8%83%A1%E6%9D%A8%E6%9E%97%E6%99%AF%E5%8C%BA%E4%B8%80%E6%97%A5%E6%B8%B8/</guid>
+      <guid>https://000.pub/posts/2023-11-04%E6%99%AE%E6%83%A0%E5%86%9C%E5%9C%BA%E8%83%A1%E6%9D%A8%E6%9E%97%E6%99%AF%E5%8C%BA%E4%B8%80%E6%97%A5%E6%B8%B8/</guid>
       <description>2023年11月4日普惠农场胡杨林景区一日游</description>
     </item>
     
     <item>
       <title></title>
-      <link>/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</link>
+      <link>https://000.pub/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</link>
       <pubDate>Sun, 02 Jul 2023 14:43:00 +0800</pubDate>
       
-      <guid>/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</guid>
+      <guid>https://000.pub/posts/%E6%81%AD%E5%96%9C%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E9%87%8D%E8%BF%94%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%B7%85/</guid>
       <description>2023七月2日恭喜中国女篮重返亚洲之巅</description>
     </item>
     
     <item>
       <title></title>
-      <link>/posts/2020%E5%B9%B49%E6%9C%885%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</link>
+      <link>https://000.pub/posts/2020%E5%B9%B49%E6%9C%885%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</link>
       <pubDate>Mon, 05 Sep 2022 17:56:00 +0800</pubDate>
       
-      <guid>/posts/2020%E5%B9%B49%E6%9C%885%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</guid>
+      <guid>https://000.pub/posts/2020%E5%B9%B49%E6%9C%885%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</guid>
       <description>2020年9月5日星期六赛里木湖</description>
     </item>
     

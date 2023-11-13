@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>/tags/</link>
+    <link>https://000.pub/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 04 Nov 2023 00:21:00 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 00:21:00 +0800</lastBuildDate><atom:link href="https://000.pub/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>图片集</title>
-      <link>/tags/%E5%9B%BE%E7%89%87%E9%9B%86/</link>
+      <link>https://000.pub/tags/%E5%9B%BE%E7%89%87%E9%9B%86/</link>
       <pubDate>Sat, 04 Nov 2023 00:21:00 +0800</pubDate>
       
-      <guid>/tags/%E5%9B%BE%E7%89%87%E9%9B%86/</guid>
+      <guid>https://000.pub/tags/%E5%9B%BE%E7%89%87%E9%9B%86/</guid>
       <description></description>
     </item>
     
     <item>
       <title>风景</title>
-      <link>/tags/%E9%A3%8E%E6%99%AF/</link>
+      <link>https://000.pub/tags/%E9%A3%8E%E6%99%AF/</link>
       <pubDate>Sat, 04 Nov 2023 00:21:00 +0800</pubDate>
       
-      <guid>/tags/%E9%A3%8E%E6%99%AF/</guid>
+      <guid>https://000.pub/tags/%E9%A3%8E%E6%99%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>赛里木湖</title>
-      <link>/tags/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</link>
+      <link>https://000.pub/tags/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</link>
       <pubDate>Mon, 05 Sep 2022 17:56:00 +0800</pubDate>
       
-      <guid>/tags/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</guid>
+      <guid>https://000.pub/tags/%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96/</guid>
       <description></description>
     </item>
     
