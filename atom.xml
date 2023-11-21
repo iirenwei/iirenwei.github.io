@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://iirenwei.github.io</id>
+    <title>John Doe</title>
+    <updated>2023-11-21T12:33:51.249Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://iirenwei.github.io"/>
+    <link rel="self" href="https://iirenwei.github.io/atom.xml"/>
+    <subtitle>世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。</subtitle>
+    <logo>https://iirenwei.github.io/images/avatar.png</logo>
+    <icon>https://iirenwei.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, John Doe</rights>
+    <entry>
+        <title type="html"><![CDATA[2023-11-21 netlify部署报错 某URL 不正确。]]></title>
+        <id>https://iirenwei.github.io/7IlEArbc6/</id>
+        <link href="https://iirenwei.github.io/7IlEArbc6/">
+        </link>
+        <updated>2023-11-21T07:41:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[picgo创建一个当前年份的相对路径图片文件夹]]></title>
+        <id>https://iirenwei.github.io/WQOuMDeCb/</id>
+        <link href="https://iirenwei.github.io/WQOuMDeCb/">
+        </link>
+        <updated>2023-11-13T08:02:05.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主题收藏/朋友圈主题/WORDPRESS主题极简风格主题]]></title>
+        <id>https://iirenwei.github.io/72wCL_yBo/</id>
+        <link href="https://iirenwei.github.io/72wCL_yBo/">
+        </link>
+        <updated>2023-11-03T08:32:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网址收藏：网站导航/资源搜索/资源整合网站、书签。]]></title>
+        <id>https://iirenwei.github.io/8I_UvML3F/</id>
+        <link href="https://iirenwei.github.io/8I_UvML3F/">
+        </link>
+        <updated>2023-10-31T03:07:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle数据库的启动和关闭过程]]></title>
+        <id>https://iirenwei.github.io/2upDwuYsH/</id>
+        <link href="https://iirenwei.github.io/2upDwuYsH/">
+        </link>
+        <updated>2023-10-24T02:52:23.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自然视力恢复法]]></title>
+        <id>https://iirenwei.github.io/DUpPUpKQi/</id>
+        <link href="https://iirenwei.github.io/DUpPUpKQi/">
+        </link>
+        <updated>2023-10-19T10:30:27.000Z</updated>
+    </entry>
+</feed>

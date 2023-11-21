@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>John Doe</title>
+<title>2023-11-21 netlify部署报错 某URL 不正确。 | John Doe</title>
 <meta name="description" content="世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -23,6 +23,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://iirenwei.github.io">John Doe</a></h3>
@@ -76,161 +77,56 @@
   </div>
 </nav>
 
-
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>2023-11-21 netlify部署报错 某URL 不正确。</h1>
+            <p class="article-meta">
+              2023-11-21
+              
+                <a href="https://iirenwei.github.io/8RaNlZSDt/" class="badge success">
+                  netlify
+                </a>
+              
+                <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge secondary">
+                  Git
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>netlify部署报错 某URL 不正确。<code>.gitmodules</code> 文件是一个 Git 配置文件，用于存储关于 Git 子模块（submodules）的信息。Git 子模块允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。这在管理多个相互关联的项目时非常有用，因为它允许你将一个项目的部分内容作为独立的子项目进行管理。</p>
+<p>非常神奇，教程也没看，类似的教程很少，因为github打开速度太慢了，后面找到gitlab打开速度挺快，还有中文。但是脑子都大了都没部署出来，本来以为是简单的push问题，把静态网页传上去就行，后面发现他是考ci/cd的，没办法啊那就学啊，一点都不会，后面发现是用.gitlab-ci.yml控制的。用了hugo模板和官方的配置总是报错。一直以为是配的问题，不停的删建中一次咋成功了，结果一看是个hexo，那说明按配置搞就没问题，但是hugo按配置怎么都搞不出来，快放弃了，又相信搞搞netlify，这玩意简单，一顿子点点居然成功了，完全也没看教程，导入选gitlab，然后绑定域名，然后看他deploy日志报错，解决了两个问题，然后就成了，真是魔幻的一天。<br>
+根目录新建一个<br>
+.gitmodules</p>
+<pre><code>[submodule &quot;themes/moments&quot;]
+	path = themes/moments
+	url = https://gitlab.com/iirenwei/iirenwei.gitlab.com.git
+
+</code></pre>
+<p>总结：懂得太少了，其实就是基础的git问题。</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
           
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/8I_UvML3F/">网址收藏：网站导航/资源搜索/资源整合网站、书签。</a>
-    </h2>
-    <p class="article-meta">
-      2023-10-31
-      
-        <a href="https://iirenwei.github.io/4FtCT7Qt36/" class="badge secondary">
-          网络资源
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/8I_UvML3F/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/7IlEArbc6/">2023-11-21 netlify部署报错 某URL 不正确。</a>
-    </h2>
-    <p class="article-meta">
-      2023-11-21
-      
-        <a href="https://iirenwei.github.io/8RaNlZSDt/" class="badge secondary">
-          netlify
-        </a>
-      
-        <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge success">
-          Git
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/7IlEArbc6/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/WQOuMDeCb/">picgo创建一个当前年份的相对路径图片文件夹</a>
-    </h2>
-    <p class="article-meta">
-      2023-11-13
-      
-        <a href="https://iirenwei.github.io/zEZbEMQzA/" class="badge secondary">
-          Picgo
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/WQOuMDeCb/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/72wCL_yBo/">主题收藏/朋友圈主题/WORDPRESS主题极简风格主题</a>
-    </h2>
-    <p class="article-meta">
-      2023-11-03
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/72wCL_yBo/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/2upDwuYsH/">Oracle数据库的启动和关闭过程</a>
-    </h2>
-    <p class="article-meta">
-      2023-10-24
-      
-        <a href="https://iirenwei.github.io/xhjTw6Y1NK/" class="badge success">
-          Oracle
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/2upDwuYsH/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://iirenwei.github.io/DUpPUpKQi/">自然视力恢复法</a>
-    </h2>
-    <p class="article-meta">
-      2023-10-19
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://iirenwei.github.io/DUpPUpKQi/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://iirenwei.github.io/WQOuMDeCb/">
+                <h3 class="post-title">
+                  picgo创建一个当前年份的相对路径图片文件夹
+                </h3>
+              </a>
+            </div>
+          
         </div>
         
-        <div class="row flex-edges">
-  
-  
-</div>
-
       </div>
-      
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://iirenwei.github.io/images/avatar.png?v=1700570020307" class="no-responsive avatar">
@@ -321,15 +217,15 @@
           netlify
         </a>
       
-        <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge secondary">
+        <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge success">
           Git
         </a>
       
-        <a href="https://iirenwei.github.io/zEZbEMQzA/" class="badge secondary">
+        <a href="https://iirenwei.github.io/zEZbEMQzA/" class="badge warning">
           Picgo
         </a>
       
-        <a href="https://iirenwei.github.io/4FtCT7Qt36/" class="badge warning">
+        <a href="https://iirenwei.github.io/4FtCT7Qt36/" class="badge secondary">
           网络资源
         </a>
       
@@ -344,7 +240,9 @@
   </div>
 </div>
 
+
     </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">

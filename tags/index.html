@@ -1,175 +1,237 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" >
+
+<title>标签列表 | John Doe</title>
+<meta name="description" content="世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://iirenwei.github.io/favicon.ico?v=1700570020307">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://iirenwei.github.io/styles/main.css">
 
 
-
-<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
-
-
-<link href="https://cdn.bootcss.com/font-awesome/5.8.2/css/all.min.css" rel="stylesheet">
-<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
-<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-<link rel="manifest" href="/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-
-<link rel="stylesheet" href="https://000.pub/style-refractored.min.d74d1c8f8d1ccb6c3d0c665a4277c5395d48cb65abd419bf0a13da05bba96d83.css">
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
-
-
-<link href="https://vjs.zencdn.net/8.0.4/video-js.min.css" rel="stylesheet" />
-
-
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/base-min.css">
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-min.css">
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
-
-
-
-
-
-
-
-
-
-
-
-
-<title>Moments Demo</title>
-
-    </head>
-    <body>
-        <div class="page">
-            <div class="jumbotron" style="background-image: url(/img/banner.jpg);">
-    <div class="container">
-        <div class="site-title">Moments Demo</div>
-        <p class="signature">人生如逆旅，我亦是行人。</p>
-    </div>
-</div>
-
+  </head>
+  <body>
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://iirenwei.github.io">John Doe</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
             
-    <div class="container bodycontainer">
-        
-        
-    </div>
-
-        
+              <a href="/" class="menu">
+                首页
+              </a>
             
-            <div class="center">
-
-                
-
-                <div class="pagination">
-                    
-    
-    
-    <li class="page-item disabled">
-        <a class="page-link" href="https://000.pub//0" tabindex="-1">&lt; Prev</a>
-    </li>
-    
-
-    
-    
+          </li>
         
-            <li class="page-item active"><a class="page-link" href="https://000.pub//1">1</a></li>
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-    
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-            <li class="page-item"><a class="page-link" href="https://000.pub//0">0</a></li>
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-    
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    
-    <li class="page-item disabled">
-        <a class="page-link" href="https://000.pub//2">Next ></a>
-    </li>
-    
-
-                </div>
-
-                
-
-            </div>
-
-            <div class="footer">
-Powered by <a href="https://github.com/FarseaSH/hugo-theme-moments" target="_blank">Github</a> | Theme 
-<a href="https://farseash.github.io/demo-hugo-theme-moments/moments/" target="_blank">Moments</a>
-
-| 期待你的声音 <a href="https://support.qq.com/products/612780/" target="_blank">我要留言</a> 
-
-</div>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="tag-list-title">标签列表</h2>
+          <div class="row tags-container">
+            
+              <a href="https://iirenwei.github.io/8RaNlZSDt/" class="badge secondary">
+                netlify
+              </a>
+            
+              <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge ">
+                Git
+              </a>
+            
+              <a href="https://iirenwei.github.io/zEZbEMQzA/" class="badge secondary">
+                Picgo
+              </a>
+            
+              <a href="https://iirenwei.github.io/4FtCT7Qt36/" class="badge success">
+                网络资源
+              </a>
+            
+              <a href="https://iirenwei.github.io/xhjTw6Y1NK/" class="badge secondary">
+                Oracle
+              </a>
+            
+          </div>
         </div>
-
+      </div>
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://iirenwei.github.io/images/avatar.png?v=1700570020307" class="no-responsive avatar">
+    <div class="text-muted">世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。</div>
+    <div class="social-container">
+      
         
-<script>
-    $(".fa-heart").click(function(){
-        if ($(this).attr("red") == 'true'){
-            $(this).animate({color:"#808080"});
-            $(this).attr("red", false);
-        } else {
-            $(this).animate({color:"#ff0000"});
-            $(this).attr("red", true);
-        }
-    });
+      
+        
+      
+        
+          <a href="https://weibo.com/u/7756552854" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/7IlEArbc6/">2023-11-21 netlify部署报错 某URL 不正确。</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/WQOuMDeCb/">picgo创建一个当前年份的相对路径图片文件夹</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/72wCL_yBo/">主题收藏/朋友圈主题/WORDPRESS主题极简风格主题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/8I_UvML3F/">网址收藏：网站导航/资源搜索/资源整合网站、书签。</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/2upDwuYsH/">Oracle数据库的启动和关闭过程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/DUpPUpKQi/">自然视力恢复法</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/FgCgGRJqy/">Untitled</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://iirenwei.github.io/about/">关于</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://iirenwei.github.io/8RaNlZSDt/" class="badge warning">
+          netlify
+        </a>
+      
+        <a href="https://iirenwei.github.io/cG9Zg6Fv-q/" class="badge secondary">
+          Git
+        </a>
+      
+        <a href="https://iirenwei.github.io/zEZbEMQzA/" class="badge secondary">
+          Picgo
+        </a>
+      
+        <a href="https://iirenwei.github.io/4FtCT7Qt36/" class="badge secondary">
+          网络资源
+        </a>
+      
+        <a href="https://iirenwei.github.io/xhjTw6Y1NK/" class="badge secondary">
+          Oracle
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://iirenwei.github.io" target="_blank">Github</a> <a href="https://support.qq.com/products/612780/" target="_blank">我要留言</a>  | <a class="rss" href="https://iirenwei.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+  
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 
-<script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
-
-
-
-
-
-
-<button id="back-top-button"><i class="fas fa-chevron-up"></i></button>
-<script>
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-            $("#back-top-button").fadeIn();
-        } else {
-            $("#back-top-button").fadeOut();
-        }
-    }
-
-
-    $( "#back-top-button" ).click(function() {
-        $("html, body").animate({scrollTop: 0}, 500);
-    });
-</script>
-
-
-
-
-
-
-
-
-    </body>
-
+  </body>
 </html>
