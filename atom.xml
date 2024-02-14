@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://000.pub</id>
+    <title>John Doe</title>
+    <updated>2024-02-14T16:30:21.113Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://000.pub"/>
+    <link rel="self" href="https://000.pub/atom.xml"/>
+    <subtitle>我们把世界看错，反说它欺骗了我们。</subtitle>
+    <logo>https://000.pub/images/avatar.png</logo>
+    <icon>https://000.pub/favicon.ico</icon>
+    <rights>All rights reserved 2024, John Doe</rights>
+    <entry>
+        <title type="html"><![CDATA[​穷人的社交，有个屁用]]></title>
+        <id>https://000.pub/e7eMyxCK_/</id>
+        <link href="https://000.pub/e7eMyxCK_/">
+        </link>
+        <updated>2024-02-13T03:04:51.000Z</updated>
+        <content type="html"><![CDATA[<p>在我之前的文章里，就已经提到过了。</p>
+<p>穷人尽量不要浪费时间去搞社交，屁用没有。</p>
+<p>这个社会，人人都现实，人人看的是你背后的钱与结果，不是你多会说话，多善交际。</p>
+<p>只要你给不了别人想要的价值，人家根本不想浪费时间搭理你。</p>
+<p>你说的话再好听有什么用。</p>
+<p>你懂再多人际交往技巧有什么用。</p>
+<p>人家对你不感兴趣，连跟你打交道都不愿意，那么你要如何发挥自己的技巧呢。</p>
+<p>我一直也说了，穷人千万不要期待自己身边出现什么贵人能够带自己腾飞，因为穷人根本很难接触到层次高的人，宇宙的规律是物以类聚，人以群分，就算能接触到，穷人也没什么筹码，值得对方出手助他们一臂之力的。</p>
+<p>请问穷人能够给对方提供什么价值？能使对方愿意跟自己合作呢？</p>
+<p>一个年轻美女或许很容易找个富二代，但是一个又老又丑的女人想找个富二代，一般来说就很难了。</p>
+<p>因为前者筹码高，可以跟富二代进行价值交换，后者筹码低，没什么能换的。</p>
+<p>人与人之间的关系就讲究个价值交换。</p>
+<p>穷人这一辈子，如果硬要说存在一个贵人的话，那人只能是自己。</p>
+<p>自己强了，好了，那才是真的强，真的好。</p>
+<p>你手握资源众多，那多的是人来巴结你，讨好你，跟你同频。</p>
+<p>这个时候，即使你不会说话，不懂人际交往技巧又有什么关系？</p>
+<p>是别人要求你，而不是你求别人。</p>
+<p>人对强者是极其宽容的，但是对弱者，很苛刻。</p>
+<p>强者说话再难听，再不尊重人，别人都会说他是性情中人，值得交往跟信任。</p>
+<p>而弱者呢，说话再注意，态度再诚恳，语气再卑微，别人都认定他假，他作，他怂，他没憋好屁，他像条哈巴狗。</p>
+<p>这个社会永远是对人不对事的。</p>
+<p>同样一件事，强者跟弱者去做，会得到不同的待遇与评价。</p>
+<p>这个社会只会对强者和颜悦色。对弱者从来都不客气。</p>
+<p>所以，有那些金钱，时间，精力，注意力去讨好别人，好不如将其好好投资在自己身上，将自己修炼成强者。</p>
+<p>真正有那个能力能帮助你的人，你是讨好不到的，你必须要有对等的价值拿出来。</p>
+<p>而你浪费宝贵时间，精力，注意力维持的那些社交关系，基本都是一些跟你层次差不多，自身难保，没有什么能力能够帮到你的人。</p>
+<p>努力维持了也是白维持。</p>
+<p>穷人为什么很容易陷在贫穷的陷阱里逃不出来？</p>
+<p>因为他做的很多都是无用功。</p>
+<p>假设他把维持人际关系的那些资源用来投入到自己身上，搞不好他的生活早就上了一个大层次了。</p>
+<p>其实，穷人活在世界上，必须明白的一个道理是，别人再怎么样，都跟自己无关。</p>
+<p>别人强也好，弱也好，都是别人的事。</p>
+<p>只有自己强了，那才是真的强。同样地，自己弱，也是真的弱。</p>
+<p>人际关系的本质是价值交换，利益交换。</p>
+<p>没有利益，就不会有所谓的关系。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://000.pub/hello-gridea/</id>
+        <link href="https://000.pub/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
