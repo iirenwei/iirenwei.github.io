@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>gridea目录结构与页面变量 | John Doe</title>
+<meta name="description" content="世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://000.pub/favicon.ico?v=1716269012765">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://000.pub/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://000.pub">John Doe</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>gridea目录结构与页面变量</h1>
+            <p class="article-meta">
+              2024-05-10
+              
+                <a href="https://000.pub/tag/gridea/" class="badge warning">
+                  gridea
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <h1 id="目录结构与页面变量">目录结构与页面变量</h1>
+<h2 id="结构">结构</h2>
+<p>主题有一些<strong>强约定</strong>的目录结构和可选的静态资源目录</p>
+<pre><code class="language-bash">fly - 主题文件夹名称 (建议用小写，中划线分隔)
+├── assets - 资源文件夹（必须，不可更名）
+│   ├── media - 主题静态资源存放目录（可选，不可更名）
+│   │   └── fonts - 字体图标文件夹（示例）
+│   │   │   ├── icomoon.ttf
+│   │   │   └── icomoon.woff
+│   │   └── images - 主题用图片文件（示例）
+│   └── styles - 样式文件夹（必须，不可更名）
+│       ├── _blocks - 样式模块文件夹（可选，可自定义命名）
+│       │   ├── footer.less
+│       │   ├── header.less
+│       │   └── tag.less
+│       ├── _core - 样式模块文件夹（可选，可自定义命名）
+│       │   ├── base.less
+│       │   ├── colors.less
+│       └── main.less - 主样式文件 (必须，不可更名)
+└── templates - 页面模版文件夹（必须，不可更名）
+│   ├── _blocks - 页面模版文件夹（可选，可自定义命名）
+│   │   ├── footer.ejs
+│   │   ├── head.ejs
+│   │   ├── header.ejs
+│   ├── index.ejs - 主页，列表页 (必须，不可更名)
+│   ├── post.ejs - 文章页 (必须，不可更名)
+│   ├── archives.ejs - 归档页 (必须，不可更名)
+│   ├── tags.ejs - 标签列表页 (必须，不可更名)
+│   ├── tag.ejs - 标签详情页 (必须，不可更名)
+│   └── friends.ejs - 自定义模版 (可选，任意命名)
+└── config.json - 主题配置文件 (可选，推荐)
+└── style-override.js - 主题样式自定义文件 (可选)
+</code></pre>
+<p>如你所见，<strong>必须</strong>文件只有 <strong>6</strong> 个，<code>main.less</code>, <code>index.ejs</code>, <code>post.ejs</code>, <code>archives.ejs</code>, <code>tags.ejs</code>, <code>tag.ejs</code> （需按照对应目录组织）</p>
+<h2 id="页面变量">页面变量</h2>
+<h3 id="indexejs">index.ejs</h3>
+<ul>
+<li><a href="#posts">posts</a></li>
+<li><a href="#menus">menus</a></li>
+<li><a href="#pagination">pagination</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<h3 id="postejs">post.ejs</h3>
+<ul>
+<li><a href="#post">post</a></li>
+<li><a href="#commentsetting">commentSetting</a></li>
+<li><a href="#menus">menus</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<h3 id="archivesejs">archives.ejs</h3>
+<ul>
+<li><a href="#posts">posts</a></li>
+<li><a href="#menus">menus</a></li>
+<li><a href="#pagination">pagination</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<h3 id="tagsejs">tags.ejs</h3>
+<ul>
+<li><a href="#tags">tags</a></li>
+<li><a href="#menus">menus</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<h3 id="tagejs">tag.ejs</h3>
+<ul>
+<li><a href="#tag">tag</a></li>
+<li><a href="#posts">posts</a></li>
+<li><a href="#menus">menus</a></li>
+<li><a href="#pagination">pagination</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<h3 id="自定义模版">自定义模版</h3>
+<p>可以在 templates 文件夹创建自定义模版，例如 <code>friends.ejs</code>, <code>about.ejs</code>, <code>projects.ejs</code>, <code>404.ejs</code> 等等，最终生成的访问路径为 <code>http(s)://域名/friends</code>, <code>http(s)://域名/about</code>, <code>http(s)://域名/projects</code>, <code>http(s)://域名/404</code> 可使用的变量值如下：</p>
+<ul>
+<li><a href="#menus">menus</a></li>
+<li><a href="#themeconfig">themeConfig</a></li>
+<li><a href="#commentsetting">commentSetting</a></li>
+<li><a href="#site">site</a></li>
+</ul>
+<blockquote>
+<p>注：若主题包含自定义模版，且文章渲染选择了精简 URL，若产生 URL 冲突，自定义渲染模版优先级高于文章 URL。</p>
+</blockquote>
+<h3 id="变量值示例">变量值示例</h3>
+<blockquote>
+<p>@ 符号为引用其他字段标志，仅作为此文档字段说明使用</p>
+</blockquote>
+<h4 id="menus">menus</h4>
+<p>菜单数组，具体字段可见 <a href="#menu">menu</a></p>
+<pre><code class="language-javascript">menus: [@menu, @menu, @menu]
+</code></pre>
+<h4 id="posts">posts</h4>
+<p>文章数组，具体 Post 字段可见 <a href="#post">post</a></p>
+<pre><code class="language-javascript">posts: [@post, @post, @post]
+</code></pre>
+<h4 id="tags">tags</h4>
+<p>标签数组，具体 Post 字段可见 <a href="#post">post</a></p>
+<pre><code class="language-javascript">posts: [@post, @post, @post]
+</code></pre>
+<h4 id="pagination">pagination</h4>
+<p>文章列表的分页字段</p>
+<pre><code class="language-javascript">pagination: {
+    prev: '', // 上一页的链接
+    next: '', // 下一页的链接
+}
+</code></pre>
+<h4 id="themeconfig">themeConfig</h4>
+<p>主题配置字段</p>
+<pre><code class="language-javascript">themeConfig:{ 
+    archivesPageSize: 50,
+    archivesPath: &quot;archives&quot;, // 归档页路径前缀，应用内可自定义，例如 'blog', 'news' 等
+    dateFormat: &quot;YYYY-MM-DD&quot;,
+    feedCount: 10,
+    feedFullText: true,
+    footerInfo: &quot;Powered by &lt;a href=\&quot;https://github.com/getgridea/gridea\&quot; target=\&quot;_blank\&quot;&gt;Gridea&lt;/a&gt;&quot;,
+    postPageSize: 12,
+    postPath: &quot;post&quot;,
+    postUrlFormat: &quot;SLUG&quot;,
+    showFeatureImage: true,
+    siteDescription: &quot;Every 🐦 has an 🦅's dream.&quot;,
+    siteName: &quot;海岛心hey&quot;,
+    tagPath: &quot;tag&quot;,
+    tagUrlFormat: &quot;SHORT_ID&quot;,
+    themeName: &quot;tech&quot;
+}
+</code></pre>
+<h4 id="post">post</h4>
+<p>文章字段</p>
+<pre><code class="language-javascript">post: {
+    content: '&lt;p&gt;&lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端 &lt;!-- more --&gt;&lt;/p&gt;\n&lt;p&gt;👏 欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！  &lt;/p&gt;\n&lt;p&gt;🌈 &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ... &lt;/p&gt;',
+    fileName: 'hello-gridea',
+    abstract: '&lt;p&gt;&lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端 &lt;/p&gt;\n',
+    description: '一个静态博客写作客户端 欢迎使用 Gridea！Gridea 一个静态博客写作客户端。你可以用它来记录你的生...', // 智能截取文章开始内容填充此字段，可用作未设置摘要时备用字段
+    title: 'Hello Gridea',
+    tags: [@tag, @tag, @tag], // 文章 tag 数组，具体可见下面 tag 字段
+    date: 'December 12o 2018, am',
+    dateFormat: '2018-12-12', // 依据 Gridea 应用内日期格式化后字段
+    feature: 'post-images/hello-gridea.png', // 若无封面图，则为 ''
+    link: 'https://xxx.com/post/hello-gridea',
+    stats: {
+        text: '3 min read',
+        time: 12000,
+        words: 3000,
+        minutes: 3
+    },
+    hideInList: false, // 仅对未设置标签文章生效
+    isTop: false, // 是否是置顶文章
+    toc: '&lt;ul class=&quot;markdownIt-TOC&quot;&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;#demo&quot; class=&quot;&quot;&gt;DEMO&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;', // 文章目录字段
+    prevPost: @post, // 若是为第一篇文章，则无此字段
+    nextPost: @post, // 若是为最后一篇文章，则无此字段
+}
+</code></pre>
+<h4 id="tag">tag</h4>
+<p>标签字段</p>
+<pre><code class="language-javascript">tag: {
+  name: 'Gridea',
+  slug: 'gridea',
+  link: 'https://xxx.com/tag/gridea',
+},
+</code></pre>
+<h4 id="site">site</h4>
+<p>site 字段</p>
+<pre><code class="language-javascript">site: {
+  posts: @posts,
+  tags: @tags,
+  menus: @menus,
+  themeConfig: @themeConfig,
+  isHomepage: false, // 是否为首页，使用 index.ejs 渲染，且为第一页的时候为 true
+  customConfig: {}, // 主题自定义配置字段，若无则为 {}
+  utils: {
+      now: '1577006772710', // Date.now()
+      moment: Function // moment.js 对象
+  },
+},
+</code></pre>
+<h4 id="commentsetting">commentSetting</h4>
+<p>评论字段</p>
+<pre><code class="language-javascript">commentSetting: {
+  commentPlatform: 'disqus',
+  disqusSetting: {
+    api: '',
+    apikey: 'Dme6Hy8bOI2xxxxUtdY8V',
+    shortname: 'gridea',
+  },
+  gitalkSetting: {
+    clientId: 'd92dxxxxxxxxxx9b4',
+    clientSecret: '861947exxxx365d33',
+    owner: 'EryouHao',
+    repository: 'EryouHao.github.io'
+  },
+  showComment: false // 是否显示评论，可根据此字段进行评论的展示与否
+}
+</code></pre>
+<h2 id="其他">其他</h2>
+<h3 id="头像avatar">头像（Avatar）</h3>
+<pre><code class="language-html">&lt;img class=&quot;avatar&quot; src=&quot;&lt;%= themeConfig.domain %&gt;/images/avatar.png&quot; alt=&quot;&quot; width=&quot;32px&quot; height=&quot;32px&quot;&gt;
+</code></pre>
+<h3 id="网页图标favicon">网页图标（Favicon）</h3>
+<pre><code class="language-html">&lt;link rel=&quot;shortcut icon&quot; href=&quot;&lt;%= themeConfig.domain %&gt;/favicon.ico&quot;&gt;
+</code></pre>
+<h3 id="样式文件maincss">样式文件（main.css）</h3>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;&lt;%= themeConfig.domain %&gt;/styles/main.css&quot;&gt;
+</code></pre>
+<h3 id="如何查看主题在应用中的效果">如何查看主题在应用中的效果</h3>
+<p>你可以将开发好的主题文件夹，复制到博客源文件夹目录，默认是 <code>~/Documents/Gridea/themes</code></p>
+<p><strong>文档</strong>文件夹中有个 <code>/Gridea</code> 文件夹是使用应用时自动创建的应用文件夹，里面有<strong>Gridea</strong>提供的默认主题</p>
+<p>你可以将自己开发的主题或其他开发者开发的主题放入此文件夹中使用即可，配合应用中的预览功能可在本地预览效果，记得预览之前，将主题选择切换成新主题哦</p>
+<div class="disqus-container">
+  <vue-disqus shortname="gridea"></vue-disqus>
+</div>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://000.pub/images/avatar.png?v=1716269012765" class="no-responsive avatar">
+    <div class="text-muted">世事变幻无常，而近乎永恒不变者，唯你我头上的同一片星空。</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+          <a href="https://www.weibo.com/u/7756552854" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://000.pub/post/ren-min-ri-bao-da-che-da-wu-kan-po-sheng-si-de-feng-shen-shi-ci/">人民日报：大彻大悟，看破生死的封神诗词！！</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/bai-shen-jiu-xiang-kai-mang-he/">拜神就像开盲盒</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/nian-qing-ren-zheng-zai-gui-mo-hua-zou-ru-lu-tian-jian-yu/">年轻人正在规模化走入露天监狱</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/dao-jia-sha-feng-liao-de-feng-shen-shi-ci-jian-qi-bi-ren-duo-tian-zao-hua/">道家杀疯了的封神诗词，剑气逼人，夺天造化！！</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/jie-ni-40-wan-chi-he-wan-le-xing-huan-fang-dai-ke-bu-xing/">借你40万！吃喝玩乐行，还房贷可不行！</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/sou-suo-kuang/">搜索框</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/theme-structure/">gridea目录结构与页面变量</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/kACV2gwcq/">有钱人不能说的秘密——匪气</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/oh2QYK2U5/">《被讨厌的勇气》：这里没有鸡汤喝，来听点大师哲学课吧</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://000.pub/post/i6vDO4Qft/">生活自律的人过得很辛苦吗</a>
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://000.pub/tag/kan-po-sheng-si/" class="badge secondary">
+          看破生死
+        </a>
+      
+        <a href="https://000.pub/tag/shi-ci/" class="badge secondary">
+          诗词
+        </a>
+      
+        <a href="https://000.pub/tag/liao-zhai/" class="badge ">
+          聊斋
+        </a>
+      
+        <a href="https://000.pub/tag/dao-jia/" class="badge secondary">
+          道家
+        </a>
+      
+        <a href="https://000.pub/tag/huang-dan/" class="badge secondary">
+          荒诞
+        </a>
+      
+        <a href="https://000.pub/tag/min-sheng/" class="badge secondary">
+          民生
+        </a>
+      
+        <a href="https://000.pub/tag/xiao-fei-dai/" class="badge secondary">
+          消费贷
+        </a>
+      
+        <a href="https://000.pub/tag/fang-dai/" class="badge secondary">
+          房贷
+        </a>
+      
+        <a href="https://000.pub/tag/wp5Kjm_Wx/" class="badge secondary">
+          鸡汤
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">GitHub</a> <a href="https://support.qq.com/products/612780/" target="_blank">我要留言</a> | <a class="rss" href="https://000.pub/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>

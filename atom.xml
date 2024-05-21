@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://000.pub</id>
     <title>John Doe</title>
-    <updated>2024-05-21T03:39:15.618Z</updated>
+    <updated>2024-05-21T05:23:36.248Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://000.pub"/>
     <link rel="self" href="https://000.pub/atom.xml"/>
@@ -11,72 +11,72 @@
     <icon>https://000.pub/favicon.ico</icon>
     <rights>All rights reserved 2024, John Doe</rights>
     <entry>
+        <title type="html"><![CDATA[人民日报：大彻大悟，看破生死的封神诗词！！]]></title>
+        <id>https://000.pub/post/ren-min-ri-bao-da-che-da-wu-kan-po-sheng-si-de-feng-shen-shi-ci/</id>
+        <link href="https://000.pub/post/ren-min-ri-bao-da-che-da-wu-kan-po-sheng-si-de-feng-shen-shi-ci/">
+        </link>
+        <updated>2024-05-21T05:16:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[拜神就像开盲盒]]></title>
+        <id>https://000.pub/post/bai-shen-jiu-xiang-kai-mang-he/</id>
+        <link href="https://000.pub/post/bai-shen-jiu-xiang-kai-mang-he/">
+        </link>
+        <updated>2024-05-21T05:10:48.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[年轻人正在规模化走入露天监狱]]></title>
-        <id>https://000.pub/nian-qing-ren-zheng-zai-gui-mo-hua-zou-ru-lu-tian-jian-yu/</id>
-        <link href="https://000.pub/nian-qing-ren-zheng-zai-gui-mo-hua-zou-ru-lu-tian-jian-yu/">
+        <id>https://000.pub/post/nian-qing-ren-zheng-zai-gui-mo-hua-zou-ru-lu-tian-jian-yu/</id>
+        <link href="https://000.pub/post/nian-qing-ren-zheng-zai-gui-mo-hua-zou-ru-lu-tian-jian-yu/">
         </link>
         <updated>2024-05-21T03:03:38.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[道家杀疯了的封神诗词，剑气逼人，夺天造化！！]]></title>
-        <id>https://000.pub/dao-jia-sha-feng-liao-de-feng-shen-shi-ci-jian-qi-bi-ren-duo-tian-zao-hua/</id>
-        <link href="https://000.pub/dao-jia-sha-feng-liao-de-feng-shen-shi-ci-jian-qi-bi-ren-duo-tian-zao-hua/">
+        <id>https://000.pub/post/dao-jia-sha-feng-liao-de-feng-shen-shi-ci-jian-qi-bi-ren-duo-tian-zao-hua/</id>
+        <link href="https://000.pub/post/dao-jia-sha-feng-liao-de-feng-shen-shi-ci-jian-qi-bi-ren-duo-tian-zao-hua/">
         </link>
         <updated>2024-05-21T02:04:43.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[借你40万！吃喝玩乐行，还房贷可不行！]]></title>
-        <id>https://000.pub/jie-ni-40-wan-chi-he-wan-le-xing-huan-fang-dai-ke-bu-xing/</id>
-        <link href="https://000.pub/jie-ni-40-wan-chi-he-wan-le-xing-huan-fang-dai-ke-bu-xing/">
+        <id>https://000.pub/post/jie-ni-40-wan-chi-he-wan-le-xing-huan-fang-dai-ke-bu-xing/</id>
+        <link href="https://000.pub/post/jie-ni-40-wan-chi-he-wan-le-xing-huan-fang-dai-ke-bu-xing/">
         </link>
         <updated>2024-05-17T10:44:21.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[搜索框]]></title>
-        <id>https://000.pub/sou-suo-kuang/</id>
-        <link href="https://000.pub/sou-suo-kuang/">
-        </link>
-        <updated>2024-05-10T04:45:56.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[gridea目录结构与页面变量]]></title>
-        <id>https://000.pub/theme-structure/</id>
-        <link href="https://000.pub/theme-structure/">
-        </link>
-        <updated>2024-05-09T17:43:20.000Z</updated>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[有钱人不能说的秘密——匪气]]></title>
-        <id>https://000.pub/kACV2gwcq/</id>
-        <link href="https://000.pub/kACV2gwcq/">
+        <id>https://000.pub/post/kACV2gwcq/</id>
+        <link href="https://000.pub/post/kACV2gwcq/">
         </link>
         <updated>2024-02-20T09:05:42.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[《被讨厌的勇气》：这里没有鸡汤喝，来听点大师哲学课吧]]></title>
-        <id>https://000.pub/oh2QYK2U5/</id>
-        <link href="https://000.pub/oh2QYK2U5/">
+        <id>https://000.pub/post/oh2QYK2U5/</id>
+        <link href="https://000.pub/post/oh2QYK2U5/">
         </link>
         <updated>2024-02-20T04:39:19.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[生活自律的人过得很辛苦吗]]></title>
-        <id>https://000.pub/i6vDO4Qft/</id>
-        <link href="https://000.pub/i6vDO4Qft/">
+        <id>https://000.pub/post/i6vDO4Qft/</id>
+        <link href="https://000.pub/post/i6vDO4Qft/">
         </link>
         <updated>2024-02-19T05:18:58.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[无论谁帮了你，一定要给他送礼，不收，也要送。送和没送有天壤之别。对于别人的帮助，越早报答越好，这能体现你是一个知恩图报、懂事的人]]></title>
-        <id>https://000.pub/RPFw5vAb5/</id>
-        <link href="https://000.pub/RPFw5vAb5/">
+        <id>https://000.pub/post/RPFw5vAb5/</id>
+        <link href="https://000.pub/post/RPFw5vAb5/">
         </link>
         <updated>2024-02-17T06:38:35.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[当一个人熬到没有电话，没有聚会，没有所谓的社交]]></title>
-        <id>https://000.pub/IEznvUCJ-/</id>
-        <link href="https://000.pub/IEznvUCJ-/">
+        <id>https://000.pub/post/IEznvUCJ-/</id>
+        <link href="https://000.pub/post/IEznvUCJ-/">
         </link>
         <updated>2024-02-14T17:47:37.000Z</updated>
     </entry>
